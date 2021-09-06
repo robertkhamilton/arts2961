@@ -319,11 +319,18 @@ namespace StarterAssets
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
 		}
 
+		// DMG::Health values for fall damage
 		public void ChangeHealth(float damage)
         {
 			_health = _health + damage;
 
 			Debug.Log("Health: " + _health);
+        }
+
+		// DMG::Getter for player speed
+		public float getSpeed()
+        {
+			return _speed;
         }
 	}
 }
