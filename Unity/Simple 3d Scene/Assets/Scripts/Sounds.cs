@@ -11,49 +11,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sounds : MonoBehaviour
+namespace StarterAssets
 {
-
-    AudioSource audioData;
-    bool zPressed;
-
-    // Start is called before the first frame update
-    void Start()
+    public class Sounds : MonoBehaviour
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        checkKeys();
-    }
+        AudioSource audioData;
+        bool zPressed;
 
-    public void PlayFootstep()
-    {
-        Debug.Log("Thump");
+        public GameObject playerObject;
+        ThirdPersonController myThirdPersonController;
 
-    }
-
-    private void checkKeys()
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
+        // Start is called before the first frame update
+        void Start()
         {
-            zPressed = !zPressed;
-            Debug.Log("Pressing Z: " + zPressed);
-            PlaySound(zPressed);
+            myThirdPersonController = playerObject.GetComponent<ThirdPersonController>();
         }
-    }
 
-    public void PlaySound(bool pressed)
-    {
-        if (pressed == true)
+        // Update is called once per frame
+        void Update()
         {
-            audioData = GetComponent<AudioSource>();
-            audioData.Play(0);
-        } else
+            checkKeys();
+        }
+
+        public void PlayFootstep()
         {
-            audioData.Stop();
+            Debug.Log("Thump");
+
+        }
+
+        private void checkKeys()
+        {
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                zPressed = !zPressed;
+                Debug.Log("Pressing Z: " + zPressed);
+                PlaySound(zPressed);
+            }
+        }
+
+        public void PlaySound(bool pressed)
+        {
+            if (pressed == true)
+            {
+                audioData = GetComponent<AudioSource>();
+                audioData.Play(0);
+            }
+            else
+            {
+                audioData.Stop();
+            }
         }
     }
 }

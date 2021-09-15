@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!243 &-8359794482700435326
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kanye - Love Lockdown 1
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: f9d7cfc87206be447a9d854256fff4be
+  m_Children: []
+  m_Volume: f96fc267a51816043acf45dd34913906
+  m_Pitch: 30b9989e93c27084daf56cf45c9cf4c7
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 1030934264873048215}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &-8240029063683169521
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 2ee8af529f8931f42802934e25acae03
+  m_EffectName: Pitch Shifter
+  m_MixLevel: 4c88ff891cb6da04abfc47ec4b87c6f6
+  m_Parameters:
+  - m_ParameterName: Pitch
+    m_GUID: 7a9e563e85eda6749897c0d30a8ce342
+  - m_ParameterName: FFT size
+    m_GUID: ae2ede210646b814287751e436093274
+  - m_ParameterName: Overlap
+    m_GUID: e06590cac2188614fadf7d0eb6f42074
+  - m_ParameterName: Max channels
+    m_GUID: c4b51a2dfeee63d4fab6f5dec2231dcf
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-8004610736674240660
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 7ef34f0ddc6f5ce4f9d66880da7abc83
+  m_EffectName: Highpass Simple
+  m_MixLevel: 2eb811deb4907344785d19b4456e31d6
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: 25ad60e44c73e4e43b3af0cd6461bd8a
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &-7417330542115633653
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kanye - Love Lockdown 5
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 1086ed0513df042479110ac45c6c3457
+  m_Children: []
+  m_Volume: 34b48db7e37323848914658142e01f06
+  m_Pitch: 2a1b2ef47951b7d4587fa6326e78889a
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 427650131318692700}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &-6600444738273574667
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 4e0bf809d13b90c418e64dbbf111acb3
+  m_EffectName: Flange
+  m_MixLevel: 28b91de6755161d4cb5a4e7f3f8eec07
+  m_Parameters:
+  - m_ParameterName: Drymix
+    m_GUID: 92ea280adcc7b614ab29ae8387d937ef
+  - m_ParameterName: Wetmix
+    m_GUID: 8aa3682af6e1ff44fb562334932348d3
+  - m_ParameterName: Depth
+    m_GUID: 7caaf9fff2afe9345b17dce2f48e9751
+  - m_ParameterName: Rate
+    m_GUID: 11485a7dcb1e8ef49bf3872b0d2d5946
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-2389531328308765049
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Attenuation
+  m_EffectID: 338d14323be85834293c208cce878c95
+  m_EffectName: Attenuation
+  m_MixLevel: d984672cb6bf1ab49afc8780db700e7c
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &-1793066467222237949
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kanye - Love Lockdown 3
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 34d68f7fd16e76d46963b6188f4f985e
+  m_Children: []
+  m_Volume: 2e8bc7dd4754e774385fca8e48cea67d
+  m_Pitch: 035a20b4142f7944c901108d2f39a4e4
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 1327856203279781710}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewAudioMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  - {fileID: 7200432839317601985}
+  - {fileID: 4432588464484210680}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 6e839b40619d7e040b683dc9f52120cf
+    - f9d7cfc87206be447a9d854256fff4be
+    - 72ef54e737ad6a048b9d136263d6ff46
+    - 34d68f7fd16e76d46963b6188f4f985e
+    - bc6e44345b35a0f4b9c3d712cf446390
+    - 1086ed0513df042479110ac45c6c3457
+    - d01951daf648e7846bc78d20189d4081
+    - fe62eef9affdbf8498923aba0a7902c7
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 7200432839317601985}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 6e839b40619d7e040b683dc9f52120cf
+  m_Children:
+  - {fileID: -8359794482700435326}
+  - {fileID: 6870110874225482685}
+  - {fileID: -1793066467222237949}
+  - {fileID: 1291238573575462451}
+  - {fileID: -7417330542115633653}
+  - {fileID: 2663130000982115038}
+  m_Volume: 2cdb181252e55ec43a286165a3393a19
+  m_Pitch: fe2de163d6348fc45b2b7aefde9328e4
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 24400004}
+  - {fileID: -6600444738273574667}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 8bb1dfb2b0586e047907f7cd81dcb300
+  m_EffectName: Attenuation
+  m_MixLevel: 860c961a89f94b6468f4107879774724
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 4ce6141d4076c164483b5774e84d885d
+  m_FloatValues:
+    2cdb181252e55ec43a286165a3393a19: -10.474862
+    38f5cd23a7994e44c84dc228a79371d2: -16.035946
+    f96fc267a51816043acf45dd34913906: -7.8940816
+    34b48db7e37323848914658142e01f06: -32.77572
+    92ea280adcc7b614ab29ae8387d937ef: 0
+    8aa3682af6e1ff44fb562334932348d3: 1
+    cc84384be2b919c44bd4be085f93cf34: -3.1841109
+    11485a7dcb1e8ef49bf3872b0d2d5946: 0
+    2e8bc7dd4754e774385fca8e48cea67d: 6.7923827
+    7a9e563e85eda6749897c0d30a8ce342: 0.999
+    b231151f380eccd4080c8f2bf93a28bd: -37.260555
+  m_TransitionOverrides: {}
+--- !u!244 &427650131318692700
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Attenuation
+  m_EffectID: 833daa8b36c5df4479507776b6c8bdc1
+  m_EffectName: Attenuation
+  m_MixLevel: c48aec7d6c78ab64c910fe364c78cabd
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &1030934264873048215
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: ac5446b00831d064cb665b0071ce1350
+  m_EffectName: Attenuation
+  m_MixLevel: 63b5f95fe1f16fc4f8ef43c29aa8553f
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &1284002726182110901
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 0acec5721a66f5641b3a9d2eac30da95
+  m_EffectName: Attenuation
+  m_MixLevel: 73c1a2b51fc1d9148bc7cb00ae357193
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &1291238573575462451
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kanye - Love Lockdown 4
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: bc6e44345b35a0f4b9c3d712cf446390
+  m_Children: []
+  m_Volume: cc84384be2b919c44bd4be085f93cf34
+  m_Pitch: 858df2f719035544cacbebe5cbc9cfab
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -2389531328308765049}
+  - {fileID: -8004610736674240660}
+  - {fileID: -8240029063683169521}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &1327856203279781710
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Attenuation
+  m_EffectID: 03ef1dcc5ea2719479ae7614c5bdec99
+  m_EffectName: Attenuation
+  m_MixLevel: 3b00002ae4753444c9c31e5b04dddd59
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &2663130000982115038
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kanye - Love Lockdown 6
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: d01951daf648e7846bc78d20189d4081
+  m_Children:
+  - {fileID: 5838925222998380503}
+  m_Volume: 38f5cd23a7994e44c84dc228a79371d2
+  m_Pitch: 9b5fd7d9a759e3943b77e88be85106fe
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 6248366989094301798}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!245 &4432588464484210680
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings 2
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 6787e118ec5852848b8be88730f2d370
+  m_FloatValues:
+    2cdb181252e55ec43a286165a3393a19: -18.10124
+    38f5cd23a7994e44c84dc228a79371d2: -4.560346
+    f96fc267a51816043acf45dd34913906: -45.253223
+    34b48db7e37323848914658142e01f06: 9.260412
+    92ea280adcc7b614ab29ae8387d937ef: 0.276
+    8aa3682af6e1ff44fb562334932348d3: 1
+    cc84384be2b919c44bd4be085f93cf34: -17.938717
+    11485a7dcb1e8ef49bf3872b0d2d5946: 0
+    2e8bc7dd4754e774385fca8e48cea67d: -2.018035
+    7a9e563e85eda6749897c0d30a8ce342: 0.999
+    b231151f380eccd4080c8f2bf93a28bd: -13.205425
+  m_TransitionOverrides: {}
+--- !u!243 &5838925222998380503
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: North West
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: fe62eef9affdbf8498923aba0a7902c7
+  m_Children: []
+  m_Volume: bf219cd5f9d3fce4c89af183052c1195
+  m_Pitch: 678e688c49a9a214984a5c01093fd2d5
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 7457137615558614486}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &6248366989094301798
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Attenuation
+  m_EffectID: 0d1f8dee7234f704fb21ebd4284c7512
+  m_EffectName: Attenuation
+  m_MixLevel: a24ba610a295e7943bc66a69e5028961
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &6870110874225482685
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kanye - Love Lockdown 2
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 72ef54e737ad6a048b9d136263d6ff46
+  m_Children: []
+  m_Volume: b231151f380eccd4080c8f2bf93a28bd
+  m_Pitch: c6ec4fa068319de49b7befe0d220944e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 1284002726182110901}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!245 &7200432839317601985
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings 1
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 8ca11dd2bb94aae4e80a1b21c4b6fa8e
+  m_FloatValues:
+    2cdb181252e55ec43a286165a3393a19: -31.333725
+    38f5cd23a7994e44c84dc228a79371d2: -43.370167
+    f96fc267a51816043acf45dd34913906: -24.162655
+    34b48db7e37323848914658142e01f06: -6.133707
+    92ea280adcc7b614ab29ae8387d937ef: 0
+    8aa3682af6e1ff44fb562334932348d3: 1
+    cc84384be2b919c44bd4be085f93cf34: 8.614069
+    11485a7dcb1e8ef49bf3872b0d2d5946: 0
+    2e8bc7dd4754e774385fca8e48cea67d: -28.727043
+    7a9e563e85eda6749897c0d30a8ce342: 0.999
+    b231151f380eccd4080c8f2bf93a28bd: -1.3472726
+  m_TransitionOverrides: {}
+--- !u!244 &7457137615558614486
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 635c470d76824524c9094f14244483b5
+  m_EffectName: Attenuation
+  m_MixLevel: cd0a1f61d813d634da67dddf675b11f7
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0

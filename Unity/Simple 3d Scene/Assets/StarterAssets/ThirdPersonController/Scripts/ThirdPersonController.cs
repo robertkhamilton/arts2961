@@ -59,6 +59,10 @@ namespace StarterAssets
 		[Tooltip("For locking the camera position on all axis")]
 		public bool LockCameraPosition = false;
 
+		[Header("DMG 2021")]
+		[Tooltip("Simple flag to mark if Player is walking/running")]
+		public bool Walking = false;
+
 		// cinemachine
 		private float _cinemachineTargetYaw;
 		private float _cinemachineTargetPitch;
@@ -170,7 +174,7 @@ namespace StarterAssets
 		}
 
 		private void Move()
-		{
+		{			
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 
@@ -178,7 +182,18 @@ namespace StarterAssets
 
 			// note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is no input, set the target speed to 0
-			if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+			//	if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+
+			// DMG::Add Moving flag
+			if (_input.move == Vector2.zero)
+			{
+				targetSpeed = 0.0f;
+				Walking = false;
+			} else
+            {
+				Walking = true;
+            }
+			// END DMB::Add Moving flag
 
 			// a reference to the players current horizontal velocity
 			float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;

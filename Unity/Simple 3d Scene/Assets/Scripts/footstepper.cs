@@ -43,9 +43,6 @@ namespace StarterAssets
 
             // get reference to AudioSource
             myAudioSource = gameObject.GetComponent<AudioSource>();
-
-            
-
             myAudioSource.clip = myAudioClip;
         }
 
@@ -72,11 +69,13 @@ namespace StarterAssets
             {
                 Debug.Log("TRIGGER: " + foot);
 
-                // Local footstep sound playback method (in this script; see below)
-                PlayFootstep();
+                if (!mute)
+                {   // Local footstep sound playback method (in this script; see below)
+                    PlayFootstep();
 
-                // Footstep sound playback method on aggregate Sounds.cs script
-                // mySounds.PlayFootstep();
+                    // Footstep sound playback method on aggregate Sounds.cs script
+                    // mySounds.PlayFootstep();
+                }
             }
         }
 
@@ -87,8 +86,6 @@ namespace StarterAssets
             float vol = Random.Range(volLowRange, volHighRange);
 
             myAudioSource.PlayOneShot(myAudioClip, vol);
-
         }
-
     }
 }
